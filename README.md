@@ -479,36 +479,13 @@ const emailBody = engine.parse(emailTemplate, {
 });
 ```
 
-## Performance
-
-- Parsing de templates é O(n) onde n é o tamanho da string
-- Acesso a valores aninhados é O(d) onde d é a profundidade
-- Cache de regex patterns para melhor performance
-- Zero alocações desnecessárias
-
-## Limitações
-
-- Placeholders devem usar apenas letras, números, pontos e underscore
-- Não suporta expressões ou lógica dentro dos placeholders
-- Profundidade máxima de objetos aninhados depende da stack do JavaScript
-
-## Contribuindo
-
-Contribuições são bem-vindas! Por favor:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
-4. Push para a branch (`git push origin feature/MinhaFeature`)
-5. Abra um Pull Request
-
 ## Licença
 
 MIT
 
 ## Autor
 
-Seu Nome - [@seutwitter](https://twitter.com/seutwitter)
+Carlos Kabé - [@carlinkabe](https://instagram.com/carlinkabe)
 
 ## Agradecimentos
 
